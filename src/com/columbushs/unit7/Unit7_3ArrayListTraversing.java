@@ -16,7 +16,6 @@ public class Unit7_3ArrayListTraversing {
 
         int i = 0;
         while (i < stringArrayList.size()) {
-
             System.out.println(stringArrayList.get(i));
             //can use string methods
             //System.out.println(stringArrayList.get(i).length());
@@ -24,9 +23,7 @@ public class Unit7_3ArrayListTraversing {
         }
 
         for (String fruits : stringArrayList) {
-
             System.out.println(fruits);
-
         }
 
     }
